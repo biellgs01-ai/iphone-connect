@@ -8,31 +8,6 @@ export interface Product {
 }
 
 export const products: Product[] = [
-  // iPhone 17 Series
-  {
-    id: "17-pro-max",
-    model: "iPhone 17 Pro Max",
-    storage: "256GB",
-    condition: "Novo",
-    price: 12999,
-    image: "/iphone-17-pro-max.png",
-  },
-  {
-    id: "17-pro",
-    model: "iPhone 17 Pro",
-    storage: "256GB",
-    condition: "Novo",
-    price: 10999,
-    image: "/iphone-17-pro.png",
-  },
-  {
-    id: "17",
-    model: "iPhone 17",
-    storage: "128GB",
-    condition: "Novo",
-    price: 8999,
-    image: "/iphone-17.png",
-  },
   // iPhone 16 Series
   {
     id: "16-pro-max",

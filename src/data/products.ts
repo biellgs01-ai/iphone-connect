@@ -14,7 +14,7 @@ export const products: Product[] = [
     model: "iPhone 16 Pro Max",
     storage: "256GB",
     condition: "Novo",
-    price: 9999,
+    price: 5649,
     image: "/iphone-16-pro-max.png",
   },
   {
@@ -22,7 +22,7 @@ export const products: Product[] = [
     model: "iPhone 16 Pro",
     storage: "128GB",
     condition: "Novo",
-    price: 8499,
+    price: 4849,
     image: "/iphone-16-pro.png",
   },
   {
@@ -30,7 +30,7 @@ export const products: Product[] = [
     model: "iPhone 16",
     storage: "128GB",
     condition: "Novo",
-    price: 6999,
+    price: 4049,
     image: "/iphone-16.png",
   },
   // iPhone 15 Series
@@ -39,7 +39,7 @@ export const products: Product[] = [
     model: "iPhone 15 Pro Max",
     storage: "256GB",
     condition: "Seminovo",
-    price: 6499,
+    price: 4549,
     image: "/iphone-15-pro-max.png",
   },
   {
@@ -47,16 +47,16 @@ export const products: Product[] = [
     model: "iPhone 15 Pro",
     storage: "128GB",
     condition: "Seminovo",
-    price: 5299,
+    price: 3949,
     image: "/iphone-15-pro.png",
   },
   // iPhone 14 Series
   {
     id: "14-pro",
     model: "iPhone 14 Pro",
-    storage: "256GB",
+    storage: "128GB",
     condition: "Seminovo",
-    price: 4799,
+    price: 2949,
     image: "/iphone-14-pro.png",
   },
   {
@@ -64,7 +64,7 @@ export const products: Product[] = [
     model: "iPhone 14",
     storage: "128GB",
     condition: "Seminovo",
-    price: 3599,
+    price: 2249,
     image: "/iphone-14.png",
   },
   // iPhone 13 Series
@@ -73,25 +73,25 @@ export const products: Product[] = [
     model: "iPhone 13",
     storage: "128GB",
     condition: "Seminovo",
-    price: 2899,
+    price: 2049,
     image: "/iphone-13.png",
   },
   // iPhone 12 Series
   {
     id: "12",
     model: "iPhone 12",
-    storage: "64GB",
+    storage: "128GB",
     condition: "Seminovo",
-    price: 2199,
+    price: 1449,
     image: "/iphone-12.png",
   },
   // iPhone 11 Series
   {
     id: "11-pro-max",
     model: "iPhone 11 Pro Max",
-    storage: "256GB",
+    storage: "128GB",
     condition: "Seminovo",
-    price: 2499,
+    price: 1549,
     image: "/iphone-11-pro-max.png",
   },
   {
@@ -99,15 +99,15 @@ export const products: Product[] = [
     model: "iPhone 11 Pro",
     storage: "128GB",
     condition: "Seminovo",
-    price: 2199,
+    price: 1399,
     image: "/iphone-11-pro.png",
   },
   {
     id: "11",
     model: "iPhone 11",
-    storage: "64GB",
+    storage: "128GB",
     condition: "Seminovo",
-    price: 1799,
+    price: 1049,
     image: "/iphone-11.png",
   },
 ];

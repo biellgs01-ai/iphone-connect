@@ -8,7 +8,7 @@ interface ProductCardProps {
 }
 
 const ProductCard = ({ product }: ProductCardProps) => {
-  const whatsappLink = `https://wa.me/5511999999999?text=${encodeURIComponent(
+  const whatsappLink = `https://wa.me/5511991958127?text=${encodeURIComponent(
     `Olá! Tenho interesse no ${product.model} ${product.storage} - ${formatPrice(product.price)}`
   )}`;
 

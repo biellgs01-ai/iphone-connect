@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { WhatsAppIcon } from "@/lib/whatsapp";
 import { Percent, Clock, Sparkles } from "lucide-react";
 
-const PROMO_WHATSAPP_LINK = `https://wa.me/5511999999999?text=${encodeURIComponent(
+const PROMO_WHATSAPP_LINK = `https://wa.me/5511991958127?text=${encodeURIComponent(
   "Quero aproveitar a promoção nos iPhones"
 )}`;
 
@@ -34,7 +34,7 @@ const PromotionSection = () => {
                 </div>
                 <div className="text-center md:text-left">
                   <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-2">
-                    20% OFF
+                    15% OFF
                   </h2>
                   <p className="text-lg md:text-xl text-muted-foreground">
                     em todos os iPhones

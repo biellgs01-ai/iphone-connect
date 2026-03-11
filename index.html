@@ -2,35 +2,32 @@
 <html lang="pt-BR">
   <head>
     <!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src='https://connect.facebook.net/en_US/fbevents.js';
-s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script');
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src='https://connect.facebook.net/en_US/fbevents.js';
+    s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script');
 
-fbq('init', '1461324482107230');
-fbq('track', 'PageView');
-</script>
+    fbq('init', '1461324482107230');
+    fbq('track', 'PageView');
+    </script>
+    <!-- End Meta Pixel Code -->
 
-<noscript>
-<img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1461324482107230&ev=PageView&noscript=1"/>
-</noscript>
-<!-- End Meta Pixel Code -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <link rel="icon" type="image/x-icon" href="/public/Favicon.ico" />
-    
+
+    <link rel="icon" type="image/x-icon" href="/Favicon.ico" />
+
     <!-- SEO Meta Tags -->
     <title>Master Apple | iPhones Seminovos com Garantia</title>
     <meta name="description" content="iPhones seminovos revisados com garantia. Modelos 12, 13, 14 e 15 Pro. Preços justos e entrega para todo Brasil. Fale no WhatsApp." />
     <meta name="keywords" content="iPhone seminovo, iPhone usado, iPhone com garantia, Master Apple, comprar iPhone, iPhone barato" />
     <meta name="author" content="Master Apple" />
-    
+
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Master Apple | iPhones Seminovos com Garantia" />
@@ -41,17 +38,25 @@ src="https://www.facebook.com/tr?id=1461324482107230&ev=PageView&noscript=1"/>
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Master Apple | iPhones Seminovos com Garantia" />
     <meta name="twitter:description" content="iPhones seminovos revisados com garantia. Preços justos e entrega para todo Brasil." />
-    
+
     <!-- Theme -->
     <meta name="theme-color" content="#121212" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    
+
     <!-- Canonical -->
     <link rel="canonical" href="https://masterapple.com.br" />
   </head>
 
   <body>
+
+    <!-- Meta Pixel (noscript precisa ficar no body) -->
+    <noscript>
+      <img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1461324482107230&ev=PageView&noscript=1"/>
+    </noscript>
+
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+
   </body>
 </html>
